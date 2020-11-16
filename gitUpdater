@@ -1,6 +1,0 @@
-#!/usr/bin/env python3
-
-import git
-
-repo = git.Repo('~/Documents/Flatiron/lectures')
-repo.remotes.upstream.pull('master')
